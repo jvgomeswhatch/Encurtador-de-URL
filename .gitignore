@@ -1,0 +1,32 @@
+# Arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Arquivos de dependências e build do Maven
+/target/
+pom.xml.bak
+*.jar
+*.war
+
+# Arquivos específicos do IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Arquivos de configuração de ambiente local
+# Se você tivesse um application-local.properties para senhas, ele entraria aqui
+application-local.properties
+
+# Arquivos gerados pelo Docker (se houver algum)
+# Geralmente, os volumes são gerenciados fora do repositório, então não precisa adicionar muito aqui.
+# No entanto, se você criar pastas de dados locais para o Docker, adicione-as.
+# Ex: /data/
+
+# Binários e arquivos compactados
+*.zip
+*.gz
